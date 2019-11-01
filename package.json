@@ -1,0 +1,25 @@
+{
+  "name": "personal_website",
+  "version": "1.0.0",
+  "description": "A personal website",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "node.js": "^0.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZijunZhao98/personal-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZijunZhao98/personal-website/issues"
+  },
+  "homepage": "https://github.com/ZijunZhao98/personal-website#readme"
+}
