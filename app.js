@@ -10,10 +10,6 @@ var handlebars = require('express-handlebars');
 
 var app = express();
 
-if (! fs.existsSync('./env.sh')) {
-  throw new Error('env.sh file is missing');
-}
-
 app.engine('hbs', handlebars({
    extname: '.hbs'
 }));
