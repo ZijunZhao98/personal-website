@@ -7,24 +7,29 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/{{css}}">
   </head>
 
   <body>
-    <div id = "header">
-      <div class="header_elems" id="name">
-        Zijun Zhao
+    <div id="whole_wrapper">
+      <div id = "header">
+        <div class="header_elems" id="name">
+          Zijun Zhao
+        </div>
+        <div class="header_elems others" id="abotme">
+          About Me
+        </div>
+        <div class="header_elems others" id="projects">
+          Projects
+        </div>
+        <div class="header_elems others" id="resume">
+          Resume
+        </div>
       </div>
-      <div class="header_elems others" id="abotme">
-        About Me
-      </div>
-      <div class="header_elems others" id="projects">
-        Projects
-      </div>
-      <div class="header_elems others" id="resume">
-        Resume
+      <div id="content">
+      {{{body}}}
       </div>
     </div>
-    {{{body}}}
   </body>
   <script src="/js/main.js"></script>
 </html>

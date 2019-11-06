@@ -4,15 +4,11 @@ var express = require('express');
 var router = express.Router();
 
 router.get('/', function(req, res){
-  res.render("projects");
+  res.render("projects", {css: "projects.css"});
 });
 
-router.get('/resume', function(req, res){
-  res.render("resume");
-})
-
 router.get('/profile', function(req, res){
-  res.render("profile");
+  res.render("profile", {css: "profile.css"});
 });
 
 module.exports = router;

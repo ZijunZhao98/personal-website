@@ -1,3 +1,13 @@
+#whole_wrapper{
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+#content{
+  flex-grow: 1;
+}
+
 #header{
   display: flex;
   flex-direction: row;
@@ -29,11 +39,11 @@
 }
 
 #abotme:hover{
-   color: rgba(107, 191, 237, 0.7);
+   color: rgba(247, 143, 233, 0.7);
 }
 
 #projects:hover{
-   color: rgba(247, 143, 233, 0.7);
+   color: rgba(107, 191, 237, 0.7);
 }
 
 #resume:hover{
