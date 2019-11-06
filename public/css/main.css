@@ -1,8 +1,41 @@
-.center{
-  height: 100%;
-  height: 100vh;
+#header{
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  border-bottom: 1.5px solid #585959;
+  padding: 10px;
+}
+
+#name{
+  flex-grow: 5;
+  padding-left: 25px;
+}
+
+.others{
+  flex-grow: 1;
+  text-align: center;
+  align-self: center;
+  transition: 0.3s;
+  color: #585959;
+}
+
+.header_elems{
+  font-family: Helvetica;
+  font-size: 20px;
+  border: 5px;
+  padding: 5px;
+  font-weight: 700;
+}
+
+#abotme:hover{
+   color: rgba(107, 191, 237, 0.7);
+}
+
+#projects:hover{
+   color: rgba(247, 143, 233, 0.7);
+}
+
+#resume:hover{
+   color: rgba(133, 201, 129, 0.7);
 }
