@@ -6,7 +6,7 @@
   min-width: 17%;
   overflow-x: hidden;
   margin-left: 3%;
-  margin-top: 1%;
+  margin-top: 90px;
   position: fixed;
   text-align: center;
 }
@@ -17,8 +17,8 @@
 }
 
 .jump:target{
-  padding-top: 60px;
-  margin-top: -60px;
+  padding-top: 80px;
+  margin-top: -80px;
 }
 
 .item_container{

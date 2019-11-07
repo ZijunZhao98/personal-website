@@ -1,11 +1,54 @@
 #profile_container{
-  margin-top: 10%;
+  padding-top: 30px;
   margin-right: auto;
   margin-left: auto;
   width: 65%;
 }
 
-h2, h4{
+h2, h4, li{
   font-family: Helvetica;
   color: #585959;
+}
+
+#icons_div{
+  display: block;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  margin-top: 40px;
+}
+
+#list_container{
+  display: flex;
+  flex-direction: row;
+}
+
+.list{
+  flex-grow: 1;
+}
+
+li{
+  font-size: 17px;
+}
+
+h4{
+  margin-bottom: 20px;
+}
+
+a{
+  color: rgb(247, 143, 233);
+}
+
+.icons{
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition: 0.3s;
+}
+
+.icons:hover{
+    -webkit-filter: none;
+    filter: none;
 }
