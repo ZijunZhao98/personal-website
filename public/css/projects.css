@@ -5,20 +5,27 @@
 #menu{
   min-width: 17%;
   overflow-x: hidden;
+  height: 100%;
+  background-color: rgb(90, 90, 92);
   margin-left: 3%;
-  margin-top: 90px;
+  top:0;
+  margin-top: 2px;
+  padding-top: 120px;
   position: fixed;
   text-align: center;
 }
 
 #project_container{
-  margin-left: 23%;
+  margin-left: 30%;
   margin-bottom: 10%;
+  margin-right: 3%;
 }
 
-.jump:target{
-  padding-top: 80px;
-  margin-top: -80px;
+:target::before{
+  content: "";
+  display: block;
+  padding-top: 120px;
+  margin-top: -120px;
 }
 
 .item_container{
@@ -28,6 +35,7 @@
 }
 
 .menu_text{
+  color: white;
   padding: 15px;
   font-size: 17px;
   font-family: Helvetica;
@@ -36,7 +44,6 @@
 }
 
 .menu_text:hover{
-  color: white;
   background-color: rgba(107, 191, 237, 0.7);
   border-radius: 1px;
 }
