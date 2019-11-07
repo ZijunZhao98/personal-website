@@ -5,6 +5,23 @@
   width: 65%;
 }
 
+span{
+  color: rgb(247, 143, 233);
+}
+
+ul{
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2022";
+  color: rgb(247, 143, 233);
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
 h2, h4, li{
   font-family: Helvetica;
   color: #585959;
