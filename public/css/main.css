@@ -35,6 +35,7 @@ html {
   padding-top: 20px;
   padding-bottom: 10px;
   font-weight: 700;
+  cursor: context-menu;
 }
 
 #abotme:hover{
