@@ -1,0 +1,11 @@
+#profile_container{
+  margin-top: 10%;
+  margin-right: auto;
+  margin-left: auto;
+  width: 65%;
+}
+
+h2, h4{
+  font-family: Helvetica;
+  color: #585959;
+}
