@@ -44,7 +44,7 @@
   font-family: Helvetica;
   font-weight: 550;
   transition: 0.3s;
-  cursor: context-menu;
+  cursor: pointer;
 }
 
 .menu_text:hover{
@@ -58,7 +58,7 @@
   border-radius: 4px;
   border: 1px solid rgba(173, 173, 173, 0.7);
   margin:10px;
-  cursor: context-menu;
+  cursor: pointer;
 }
 
 .card>img{
