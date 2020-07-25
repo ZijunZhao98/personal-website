@@ -43,4 +43,8 @@ $('document').ready(function(){
     window.open("https://github.com/SaundersJP/RichArduino");
   });
 
+  $('#music_game').on('click', function(evt){
+    window.open("https://github.com/ZhanqiZhang66/3DVideoGame");
+  });
+
 });
