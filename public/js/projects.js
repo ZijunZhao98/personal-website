@@ -47,4 +47,9 @@ $('document').ready(function(){
     window.open("https://github.com/ZhanqiZhang66/3DVideoGame");
   });
 
+  $('#petproject').on('click', function(evt){
+    window.open("https://github.com/ZijunZhao98/thePetProject");
+  });
+
+
 });
